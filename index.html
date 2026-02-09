@@ -1,0 +1,110 @@
+<html>
+<head>
+    <title>To You...</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Molle:ital@1&family=Quintessential&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            background:
+            linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("roses.webp");
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat;
+            justify-items: center;
+            align-items: center;
+            border: 5px pink solid;
+            border-radius: 5%;
+            font-family:"Quintessential",cursive, sans-serif;
+        }
+        .quintessential-regular {
+            font-family: "Quintessential", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        #h1{
+            color: rgb(201, 42, 55);
+            font-family:"Times New Roman", "Quintessential", cursive, sans-serif;
+            font-size:75px;
+            font-weight:bolder;
+            text-shadow:
+            -2px -2px 0 white,
+             2px -2px 0 white,
+            -2px  2px 0 white,
+             2px  2px 0 white;
+            text-align: center;
+            display:block;
+            margin-top:30%;
+            cursor:crosshair;
+        }
+        p{
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            display:block;
+            margin-top:10px;
+            cursor:crosshair;
+        }
+        button{
+            display: block;
+            margin-top: 50px;
+            padding: 10px 20px;
+            font-family:Monospace,cursive, sans-serif;
+            font-size: 15px;
+            font-weight:bolder;
+            background-color: rgb(249, 177, 177);
+            color: rgb(245, 70, 70);
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            animation: glow 2s infinite;
+        }
+        button:hover{
+            background-color: rgb(230, 83, 95);
+            color: rgb(249, 177, 177);
+        }
+        @keyframes glow {
+        0% { box-shadow: 0 0 5px rgb(230, 83, 95); }
+        50% { box-shadow: 0 0 30px rgb(230, 83, 95); }
+        100% { box-shadow: 0 0 5px rgb(230, 83, 95); }
+        }
+       .glow {
+  color: rgb(249, 177, 177);
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow:
+    0 0 5px rgb(249, 177, 177),
+    0 0 10px rgb(249, 177, 177),
+    0 0 20px rgb(249, 177, 177),
+    0 0 40px rgb(249, 177, 177);
+
+  animation: pulse 2s infinite alternate;
+}
+
+@keyframes pulse {
+  from {
+    text-shadow:
+      0 0 5px rgb(249, 177, 177),
+      0 0 10px rgb(249, 177, 177);
+  }
+  to {
+    text-shadow:
+      0 0 20px rgb(249, 177, 177),
+      0 0 30px rgb(249, 177, 177);
+  }
+}
+
+    </style>
+</head>
+<body>
+    <p id="h1" class="glow"><i>Happy Valentine's Day</i></p>
+
+    <p>"If I know what love is, it is because of you."</p>
+    <p>-Hermann Hesse</p>
+    <button onclick="window.location.href='videopg.html'">Click Me</button>
+    <audio autoplay loop>
+        <source src="Elvis Presley - Can't Help Falling in Love (Lyrics) - 7clouds.mp3#t=7" type="audio/mpeg">
+    </audio>
+    </body>
+</html> 
